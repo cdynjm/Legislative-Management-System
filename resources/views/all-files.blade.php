@@ -11,7 +11,7 @@
                 <!-- <div class="alert bg-gray" role="alert">
                     <input type="text" placeholder="Search..." class="form-control" id="all-files-search">
                 </div> -->
-              <div class="card-body px-0 pt-0 pb-2">
+              
               <div class="card-header pb-0">
                   <div>
                       <h5 class="mb-0">
@@ -20,13 +20,13 @@
                       </svg>
                       Files</h5>
                   </div>
-                </div>
-                  <div class="table-responsive p-4 mt-4">
+              </div>
+                    <div class="table-responsive p-4 mt-4">
                       @include('table.all-files-table')
                     </div>
-                </div>
             </div>
         </div>
+    </div>
 
 
 @endsection

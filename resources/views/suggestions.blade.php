@@ -8,7 +8,7 @@
                 <!-- <div class="alert bg-gray" role="alert">
                     <input type="text" placeholder="Search..." class="form-control" id="all-files-search">
                 </div> -->
-              <div class="card-body px-0 pt-0 pb-2">
+              
               <div class="card-header pb-0">
                   <div>
                       <h5 class="mb-0">

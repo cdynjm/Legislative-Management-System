@@ -11,10 +11,10 @@ use App\Models\Logo;
         @if(Auth::user()->type == 0)
           @foreach(Logo::get() as $logo)
             @if($logo->logo != null)
-                <img style="width: 70px; height: 70px; border-radius: 50px;" src="{{ asset('storage/logo/'.$logo->logo) }}" class="ms-4" alt="...">
+                <img style="width: 50px; height: auto; border-radius: 50px;" src="{{ asset('storage/logo/'.$logo->logo) }}" class="ms-4" alt="...">
             @endif
             @if($logo->logo == null)
-                <img style="width: 70px; height: 70px; border-radius: 50px;" src="https://st4.depositphotos.com/4329009/19956/v/600/depositphotos_199564354-stock-illustration-creative-vector-illustration-default-avatar.jpg" class="ms-4" alt="...">
+                <img style="width: 50px; height: auto; border-radius: 50px;" src="https://st4.depositphotos.com/4329009/19956/v/600/depositphotos_199564354-stock-illustration-creative-vector-illustration-default-avatar.jpg" class="ms-4" alt="...">
             @endif
           @endforeach
         @endif
@@ -22,10 +22,10 @@ use App\Models\Logo;
         @if(Auth::user()->type == 1)
           @foreach(Logo::get() as $logo)
             @if($logo->logo != null)
-                <img style="width: 70px; height: 70px; border-radius: 50px;" src="{{ asset('storage/logo/'.$logo->logo) }}" class="ms-4" alt="...">
+                <img style="width: 50px; height: auto; border-radius: 50px;" src="{{ asset('storage/logo/'.$logo->logo) }}" class="ms-4" alt="...">
             @endif
             @if($logo->logo == null)
-                <img style="width: 70px; height: 70px; border-radius: 50px;" src="https://st4.depositphotos.com/4329009/19956/v/600/depositphotos_199564354-stock-illustration-creative-vector-illustration-default-avatar.jpg" class="ms-4" alt="...">
+                <img style="width: 50px; height: auto; border-radius: 50px;" src="https://st4.depositphotos.com/4329009/19956/v/600/depositphotos_199564354-stock-illustration-creative-vector-illustration-default-avatar.jpg" class="ms-4" alt="...">
             @endif
           @endforeach
         @endif
