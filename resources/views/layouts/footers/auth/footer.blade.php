@@ -7,10 +7,10 @@
       <h6 class="mb-2"><a href="#" target="_blank" class="footer-text">{{env('APP_NAME')}} </a></h6>
       <div class="mb-2">Online portals</div>
       <div class="social-icon my-3">
-        <a href="https://www.facebook.com/southernleytestateu" target="_blank" class="text-white p-1 border-radius-sm me-2 bg-gradient-info" style="font-size: 14px;"><i class="fa fa-facebook-square"></i></a>
-        <a href="https://youtube.com/c/SouthernLeyteStateUniversity" target="_blank" class="text-white p-1 border-radius-sm me-2 bg-gradient-danger" style="font-size: 14px;"><i class="fa fa-youtube-play"></i></a>
+        <a href="https://www.facebook.com/southernleytestateu" target="_blank" class="text-white p-1 border-radius-sm me-2 bg-gradient-info" style="font-size: 14px;"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://youtube.com/c/SouthernLeyteStateUniversity" target="_blank" class="text-white p-1 border-radius-sm me-2 bg-gradient-danger" style="font-size: 14px;"><i class="fa-brands fa-youtube"></i></a>
         <a href="https://www.southernleytestateu.edu.ph/index.php/en/" target="_blank" class="text-white p-1 border-radius-sm me-2 bg-gradient-success" style="font-size: 14px;"><i class="	fa fa-globe"></i></a>
-        <a href="https://gmail.com" target="_blank" class="text-white p-1 border-radius-sm me-2 bg-gradient-secondary" style="font-size: 14px;"><i class="fa fa-google"></i></a>
+        <a href="https://gmail.com" target="_blank" class="text-white p-1 border-radius-sm me-2 bg-gradient-secondary" style="font-size: 14px;"><i class="fa-brands fa-google"></i></a>
       </div>
       <small class="pt-1">
         <script>
